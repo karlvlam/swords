@@ -1,4 +1,4 @@
-##Swords 劍
+##Swords 格劍
 This is the final project of a course Unix and Script Programming (COMP111) in my year3 (2008) of UST. 
 I don't remember why I was so crazy to write this game in Perl with limited Javascript with so little marks..., but it is fun!
 The demo was run on the college's SUN (Yes, it becomes Oracle now...) unix server. Apache + perl module works fine.
@@ -24,13 +24,17 @@ Karl Lam
 ##For the coding, just 4 files:
 
 swords.html <- html only, starting point of the game
+
 swords.js <- javascript, front end control
+
 server.pl <- perl cgi, as a server, control the game flow
+
 view.pl <- just for fun, a console mode script to view the steps of 4 players ^_^
 
 ##for the data, there are 2 directories:
 
 ./games/ <- files for games, make sure the cgi user can read/write this directory.
+
 ./images/ <- images of the game
 
 
