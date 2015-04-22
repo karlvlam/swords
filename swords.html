@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+	<title>Swords</title>
+	<script type="text/javascript" src="swords.js"></script>
+</head>
+
+
+<body>
+
+	<h1 align="center">Swords</h1>
+	<hr />
+	<div align="center">
+
+		<!-- Table of game information -->
+
+		<table align="center" width="50%">
+
+		<!-- room name & round number -->
+
+			<tr width="50%">
+				<td><font id="txtGame" align="right"></font></td>
+				<td><font id="txtState"></font></td>
+			</tr>
+
+		<!-- buttons -->
+			<tr width="50%">
+				<td align="right">
+						<input id="btnJoin" type="button" onclick='join();' value="Join" />
+						<input id="btnStart" type="button" onclick='gstart();' disabled value="Start" />
+				</td>
+				<td align="left">
+						<input id="btnGo" type="button" onclick='move();' disabled value="Go" />
+						<input id="btnReset" type="button" disabled onclick='reset();' value="Reset" />
+				</td>
+				
+			</tr>	
+		</table>
+
+
+		<table align="center" width="50%">
+			<!-- player 0 -->
+			<tr id="row_p0" width="50%">
+				<td id="pname0" align="right">player0</td>
+				<td><img id="img_hp0" src="images/red.gif" height="20" width="100" border="1" /><font id="hp0">100</font></td>
+			</tr>	
+
+			<!-- player 1 -->
+			<tr id="row_p1" width="50%">
+				<td id="pname1" align="right">player1</td>
+				<td><img id="img_hp1" src="images/blue.gif" height="20" width="100" border="1" /><font id="hp1">100</font></td>
+			</tr>	
+
+			<!-- player 2 -->
+
+			<tr id="row_p2" width="50%">
+				<td id="pname2" align="right">player2</td>
+				<td><img id="img_hp2" src="images/green.gif" height="20" width="100" border="1" /><font id="hp2">100</font></td>
+			</tr>	
+
+			<!-- player 3 -->
+
+			<tr id="row_p3" width="50%">
+				<td id="pname3" align="right">player3</td>
+				<td id="aaa"><img id="img_hp3" src="images/yellow.gif" height="20" width="100" border="1" /><font id="hp3">100</font></td>
+			</tr>	
+		</table>
+
+		<!-- end Table of game information -->
+
+		<script>
+			gameLoad(9);
+
+				//sendPing();
+		</script>
+	</div>
+
+</body>
+
+</html>
