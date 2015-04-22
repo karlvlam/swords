@@ -1,6 +1,6 @@
 ##Swords 劍
 This is the final project of a course Unix and Script Programming (COMP111) in my year3 (2008) of UST. 
-I don't remember why I was so crazy to write this game by Perl with limited Javascript with so little marks..., but it is fun!
+I don't remember why I was so crazy to write this game in Perl with limited Javascript with so little marks..., but it is fun!
 The demo was run on the college's SUN (Yes, it becomes Oracle now...) unix server. Apache + perl module works fine.
 
 Those were the days...
