@@ -39,8 +39,8 @@ view.pl <- just for fun, a console mode script to view the steps of 4 players ^_
 
 
 ##How do I hold the data ?
-1. data of each is stored in a file at ./games.
-2. the game file name is MD5 hash of "sWoRd" + [game name], which is 32 byte long.
+1. data of each game(room) is stored in a file at ./games.
+2. the game file name is MD5 hash of "sWoRd" + [game name], which is 32-byte long.
 3. the data file will be locked for every request, and unlock it after everything done, so there is ONLY 1 player read/write the file each time.
 
 
