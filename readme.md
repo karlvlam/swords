@@ -31,7 +31,7 @@ server.pl <- perl cgi, as a server, control the game flow
 
 view.pl <- just for fun, a console mode script to view the steps of 4 players ^_^
 
-##for the data, there are 2 directories:
+## For the data, there are 2 directories:
 
 ./games/ <- files for games, make sure the cgi user can read/write this directory.
 
